@@ -15,7 +15,7 @@ public class Test {
         checkThat("3".equals(algorithm.evaluate(4)), "Incorrect value for 4");
         checkThat("5".equals(algorithm.evaluate(5)), "Incorrect value for 5");
         checkThat("354224848179261915075".equals(algorithm.evaluate(100)), "Incorrect value for 100");
-        //checkThat(FIB_300_K.equals(algorithm.evaluate(300000)), "Incorrect value for 3000000");
+        checkThat(FIB_300_K.equals(algorithm.evaluate(300000)), "Incorrect value for 3000000");
         System.out.println("SUCCESS!");
     }
 
